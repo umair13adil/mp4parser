@@ -1,7 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bestforce.testmp4parser"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.umair_adil.audio_video_merger">
 
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
@@ -11,9 +9,9 @@
         android:label="@string/app_name"
         android:largeHeap="true"
         android:hardwareAccelerated="true"
-        android:theme="@style/AppTheme" android:name="com.bestforce.testmp4parser.MyApplication">
+        android:theme="@style/AppTheme" android:name="com.umair_adil.audio_video_merger.MyApplication">
         <activity
-            android:name="com.bestforce.testmp4parser.MainActivity"
+            android:name="com.umair_adil.audio_video_merger.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>

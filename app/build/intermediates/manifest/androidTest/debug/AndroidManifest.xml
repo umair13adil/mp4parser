@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.bestforce.testmp4parser.test">
+    package="com.umair_adil.audio_video_merger.test">
 
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="22" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="org.bestforce.testmp4parser"
+                     android:targetPackage="com.umair_adil.audio_video_merger"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for org.bestforce.testmp4parser"/>
+                     android:label="Tests for com.umair_adil.audio_video_merger"/>
 </manifest>
