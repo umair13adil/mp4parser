@@ -1,0 +1,118 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+E:\My Projects\Stuff\Examples\Video Processing\mp4parser-master\TestMp4parser-master
+     -                             -                                                
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\Maven__com_google_android_android_4_1_1_4.xml
+* .idea\libraries\Maven__com_googlecode_mp4parser_isoparser_1_0_RC_15.xml
+* .idea\libraries\Maven__commons_codec_commons_codec_1_3.xml
+* .idea\libraries\Maven__commons_logging_commons_logging_1_1_1.xml
+* .idea\libraries\Maven__org_apache_httpcomponents_httpclient_4_0_1.xml
+* .idea\libraries\Maven__org_apache_httpcomponents_httpcore_4_0_1.xml
+* .idea\libraries\Maven__org_aspectj_aspectjrt_1_7_0.xml
+* .idea\libraries\Maven__org_json_json_20080701.xml
+* .idea\libraries\Maven__org_khronos_opengl_api_gl1_1_android_2_1_r1.xml
+* .idea\libraries\Maven__xerces_xmlParserAPIs_2_6_2.xml
+* .idea\libraries\Maven__xpp3_xpp3_1_1_4c.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* README.md
+* TestMp4parser.iml
+* ic_launcher-web.png
+* pom.xml
+* proguard-project.txt
+* target\
+* target\TestMp4parser.apk
+* target\TestMp4parser.jar
+* target\TestMp4parser.unaligned.apk
+* target\classes\
+* target\classes\META-INF\
+* target\classes\META-INF\MANIFEST.MF
+* target\classes\META-INF\maven\
+* target\classes\META-INF\maven\org.bestforce.testmp4parser\
+* target\classes\META-INF\maven\org.bestforce.testmp4parser\TestMp4parser\
+* target\classes\META-INF\maven\org.bestforce.testmp4parser\TestMp4parser\pom.properties
+* target\classes\META-INF\maven\org.bestforce.testmp4parser\TestMp4parser\pom.xml
+* target\classes\org\
+* target\classes\org\bestforce\
+* target\classes\org\bestforce\testmp4parser\
+* target\classes\org\bestforce\testmp4parser\AppendExample$1.class
+* target\classes\org\bestforce\testmp4parser\AppendExample$SimpleInvalidationHandler.class
+* target\classes\org\bestforce\testmp4parser\AppendExample.class
+* target\classes\org\bestforce\testmp4parser\BuildConfig.class
+* target\classes\org\bestforce\testmp4parser\MainActivity.class
+* target\classes\org\bestforce\testmp4parser\MyApplication.class
+* target\classes\org\bestforce\testmp4parser\R$attr.class
+* target\classes\org\bestforce\testmp4parser\R$dimen.class
+* target\classes\org\bestforce\testmp4parser\R$drawable.class
+* target\classes\org\bestforce\testmp4parser\R$id.class
+* target\classes\org\bestforce\testmp4parser\R$layout.class
+* target\classes\org\bestforce\testmp4parser\R$menu.class
+* target\classes\org\bestforce\testmp4parser\R$raw.class
+* target\classes\org\bestforce\testmp4parser\R$string.class
+* target\classes\org\bestforce\testmp4parser\R$style.class
+* target\classes\org\bestforce\testmp4parser\R.class
+* target\classes\org\bestforce\testmp4parser\ShortenExample$1.class
+* target\classes\org\bestforce\testmp4parser\ShortenExample$SimpleInvalidationHandler.class
+* target\classes\org\bestforce\testmp4parser\ShortenExample.class
+* target\classes\org\bestforce\utils\
+* target\classes\org\bestforce\utils\SimpleThreadFactory.class
+* target\classes\org\bestforce\utils\Ut.class
+* target\generated-sources\
+* target\generated-sources\r\
+* target\generated-sources\r\org\
+* target\generated-sources\r\org\bestforce\
+* target\generated-sources\r\org\bestforce\testmp4parser\
+* target\generated-sources\r\org\bestforce\testmp4parser\BuildConfig.java
+* target\generated-sources\r\org\bestforce\testmp4parser\Manifest.java
+* target\generated-sources\r\org\bestforce\testmp4parser\R.java
+* target\maven-archiver\
+* target\maven-archiver\pom.properties
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

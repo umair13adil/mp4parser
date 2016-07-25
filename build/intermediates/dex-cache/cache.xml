@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Umair_Adil\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="E:\My Projects\Projects Assigned\Audio Video Merger\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_095148ee9ae94723d08aa0b79109b45b276add9d.jar" />
+    </item>
+    <item
+        jar="E:\My Projects\Projects Assigned\Audio Video Merger\app\build\intermediates\exploded-aar\Audio Video Merger\aFileChooser\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="cd4ce44612fd5c18290013c63dbd80261f5ee356">
+        <dex dex="E:\My Projects\Projects Assigned\Audio Video Merger\app\build\intermediates\pre-dexed\debug\Audio Video Merger-aFileChooser-unspecified_57d77596af00610c3c091971ff2604d7055200ea.jar" />
+    </item>
+    <item
+        jar="E:\My Projects\Projects Assigned\Audio Video Merger\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="E:\My Projects\Projects Assigned\Audio Video Merger\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_42fd1ed731005d532fa2ec30636c9921948ee01a.jar" />
+    </item>
+    <item
+        jar="E:\My Projects\Projects Assigned\Audio Video Merger\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="E:\My Projects\Projects Assigned\Audio Video Merger\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_f8f1ae0482de1e743597a9187dd8bf978304816b.jar" />
+    </item>
+    <item
+        jar="E:\My Projects\Projects Assigned\Audio Video Merger\app\libs\isoparser-1.1.9.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="a6a2d252e574b8f942298fbb560b7e14b9d46d8a">
+        <dex dex="E:\My Projects\Projects Assigned\Audio Video Merger\app\build\intermediates\pre-dexed\debug\isoparser-1.1.9_e0aae9aca4ec1bbfdf28bda69e64dc6a095cb73b.jar" />
+    </item>
+
+</items>

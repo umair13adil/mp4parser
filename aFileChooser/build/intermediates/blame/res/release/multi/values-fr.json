@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\build\\intermediates\\res\\merged\\release\\values-fr\\values-fr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 219,
+                        "endColumn": 61,
+                        "endOffset": 278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 56,
+                    "endOffset": 171
+                },
+                "from": {
+                    "file": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 2,
+                        "startOffset": 85,
+                        "endColumn": 54,
+                        "endOffset": 137
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 176,
+                    "endColumn": 87,
+                    "endOffset": 259
+                },
+                "from": {
+                    "file": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 2,
+                        "startOffset": 281,
+                        "endColumn": 85,
+                        "endOffset": 364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 264,
+                    "endColumn": 80,
+                    "endOffset": 340
+                },
+                "from": {
+                    "file": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\values-fr\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 2,
+                        "startOffset": 140,
+                        "endColumn": 78,
+                        "endOffset": 216
+                    }
+                }
+            }
+        ]
+    }
+]

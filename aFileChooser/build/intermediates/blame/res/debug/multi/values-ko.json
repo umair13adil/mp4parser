@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\build\\intermediates\\res\\merged\\debug\\values-ko\\values-ko.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 2,
+                        "startOffset": 189,
+                        "endColumn": 43,
+                        "endOffset": 230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 50,
+                    "endOffset": 147
+                },
+                "from": {
+                    "file": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 2,
+                        "startOffset": 84,
+                        "endColumn": 48,
+                        "endOffset": 130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 152,
+                    "endColumn": 57,
+                    "endOffset": 205
+                },
+                "from": {
+                    "file": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 2,
+                        "startOffset": 233,
+                        "endColumn": 55,
+                        "endOffset": 286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 210,
+                    "endColumn": 57,
+                    "endOffset": 263
+                },
+                "from": {
+                    "file": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\values-ko\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 2,
+                        "startOffset": 133,
+                        "endColumn": 55,
+                        "endOffset": 186
+                    }
+                }
+            }
+        ]
+    }
+]

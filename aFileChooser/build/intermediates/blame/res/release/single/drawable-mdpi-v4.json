@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_file.png",
+        "source": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\drawable-mdpi\\ic_file.png"
+    },
+    {
+        "merged": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_folder.png",
+        "source": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\drawable-mdpi\\ic_folder.png"
+    },
+    {
+        "merged": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_chooser.png",
+        "source": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\drawable-mdpi\\ic_chooser.png"
+    },
+    {
+        "merged": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\ic_provider.png",
+        "source": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\drawable-mdpi\\ic_provider.png"
+    }
+]

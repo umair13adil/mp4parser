@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_chooser.png",
+        "source": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\build\\intermediates\\exploded-aar\\Audio Video Merger\\aFileChooser\\unspecified\\res\\drawable-xxhdpi-v4\\ic_chooser.png"
+    },
+    {
+        "merged": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_folder.png",
+        "source": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\build\\intermediates\\exploded-aar\\Audio Video Merger\\aFileChooser\\unspecified\\res\\drawable-xxhdpi-v4\\ic_folder.png"
+    },
+    {
+        "merged": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_file.png",
+        "source": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\build\\intermediates\\exploded-aar\\Audio Video Merger\\aFileChooser\\unspecified\\res\\drawable-xxhdpi-v4\\ic_file.png"
+    },
+    {
+        "merged": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_provider.png",
+        "source": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\build\\intermediates\\exploded-aar\\Audio Video Merger\\aFileChooser\\unspecified\\res\\drawable-xxhdpi-v4\\ic_provider.png"
+    }
+]

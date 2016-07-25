@@ -1,0 +1,98 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:1:1-44:12
+	package
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:2:5-42
+		INJECTED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:6:2-94
+	android:name
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:6:19-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:7:5-96
+	android:name
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:7:22-77
+application
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:9:5-42:19
+MERGED from [com.android.support:support-v4:23.1.1] E:\My Projects\Projects Assigned\Audio Video Merger\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:11:9-41
+	android:hardwareAccelerated
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:13:9-43
+	android:icon
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:10:9-45
+	android:largeHeap
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:12:9-33
+	android:theme
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:14:41-97
+activity#com.bestforce.testmp4parser.MainActivity
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:15:9-24:20
+	android:screenOrientation
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:18:13-49
+	android:label
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:16:13-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.ipaulpro.afilechooser.FileChooserActivity
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:27:9-41:20
+	android:enabled
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:32:13-48
+	android:exported
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:31:13-36
+	android:icon
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:29:13-48
+	android:name
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:28:13-73
+intent-filter#android.intent.action.GET_CONTENT+android.intent.category.DEFAULT+android.intent.category.OPENABLE
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:33:13-40:29
+action#android.intent.action.GET_CONTENT
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:34:25-73
+category#android.intent.category.DEFAULT
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:36:27-73
+category#android.intent.category.OPENABLE
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:37:27-74
+data
+ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:39:17-48
+	android:mimeType
+		ADDED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml:39:23-45
+uses-sdk
+INJECTED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [Audio Video Merger:aFileChooser:unspecified] E:\My Projects\Projects Assigned\Audio Video Merger\app\build\intermediates\exploded-aar\Audio Video Merger\aFileChooser\unspecified\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\My Projects\Projects Assigned\Audio Video Merger\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml
+		INJECTED from E:\My Projects\Projects Assigned\Audio Video Merger\app\src\main\AndroidManifest.xml

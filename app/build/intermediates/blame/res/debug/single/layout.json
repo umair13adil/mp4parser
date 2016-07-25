@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file.xml",
+        "source": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\app\\build\\intermediates\\exploded-aar\\Audio Video Merger\\aFileChooser\\unspecified\\res\\layout\\file.xml"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\build\\intermediates\\res\\merged\\release\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 53,
+                    "endOffset": 104
+                },
+                "from": {
+                    "file": "E:\\My Projects\\Projects Assigned\\Audio Video Merger\\aFileChooser\\src\\main\\res\\values-v11\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 658,
+                        "endColumn": 53,
+                        "endOffset": 707
+                    }
+                }
+            }
+        ]
+    }
+]
