@@ -71,9 +71,7 @@ class MainActivity : Activity() {
 
         btn_merge.setOnClickListener {
 
-            val videoPaths = arrayListOf<String>(video.path, video2.path)
-            val audioPaths = arrayListOf<String>(audio.path, audio2.path)
-            val mergeExample = MergeExample(videoPaths, audioPaths)
+            val mergeExample = MergeExample(video.path, audio3.path)
 
             //This will merge audio and video files together in a single video file.
             mergeExample.merge()
@@ -110,8 +108,8 @@ class MainActivity : Activity() {
 
     fun setUpResources() {
         //Copy Audio, Video from resources to Storage Directory
-        audio = Utils.copyFileToExternalStorage(R.raw.audio, "audio.mp3", applicationContext)
-        audio2 = Utils.copyFileToExternalStorage(R.raw.audio2, "audio2.mp3", applicationContext)
+        audio = Utils.copyFileToExternalStorage(R.raw.audio, "example.aac", applicationContext)
+        audio2 = Utils.copyFileToExternalStorage(R.raw.audio2, "sample.aac", applicationContext)
         audio3 = Utils.copyFileToExternalStorage(R.raw.audio3, "audio3.mp3", applicationContext)
         video = Utils.copyFileToExternalStorage(R.raw.video, "video.mp4", applicationContext)
         video2 = Utils.copyFileToExternalStorage(R.raw.video2, "video2.mp4", applicationContext)

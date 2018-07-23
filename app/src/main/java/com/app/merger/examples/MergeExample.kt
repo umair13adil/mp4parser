@@ -2,24 +2,22 @@ package com.app.merger.examples
 
 import com.app.utils.Utils
 import com.googlecode.mp4parser.FileDataSourceImpl
-import com.googlecode.mp4parser.authoring.Movie
 import com.googlecode.mp4parser.authoring.Track
 import com.googlecode.mp4parser.authoring.builder.DefaultMp4Builder
 import com.googlecode.mp4parser.authoring.container.mp4.MovieCreator
 import com.googlecode.mp4parser.authoring.tracks.AACTrackImpl
-import com.googlecode.mp4parser.authoring.tracks.AppendTrack
 import com.googlecode.mp4parser.authoring.tracks.CroppedTrack
+import com.googlecode.mp4parser.authoring.tracks.MP3TrackImpl
 import io.reactivex.Observable
-import java.io.File
-import java.io.FileNotFoundException
-import java.io.IOException
-import java.io.RandomAccessFile
+import java.io.*
 import java.util.*
+import kotlin.experimental.xor
+
 
 /**
  * Created by Umair_Adil on 23/07/2016.
  */
-class MergeExample(private val videoPaths: List<String>, private val audioPaths: List<String>) {
+class MergeExample(private val videoPath: String, private val audioPath: String) {
 
 
     fun merge(): Observable<String> {
@@ -30,54 +28,16 @@ class MergeExample(private val videoPaths: List<String>, private val audioPaths:
 
         try {
             // Create a media file name
-            val filePath = Utils.outputPath + File.separator + "TMP4_APP_OUT_" + Utils.getTimeStamp() + ".mp4"
+            val filePath = Utils.outputPath + File.separator + "Merged_" + Utils.getTimeStamp() + ".mp4"
 
-            val inMovies = arrayListOf<Movie>()
-            var aacTrack: AACTrackImpl? = null
+            val movie = MovieCreator.build(videoPath)
+            val ct = CroppedTrack(getAudioTrack(), 10, 500)
+            movie.addTrack(ct)
 
-
-            val videoFileList = ArrayList<File>()
-            val audioFileList = ArrayList<File>()
-
-            for (i in videoPaths.indices) {
-                val file = File(videoPaths[i])
-                val movie = MovieCreator.build(file.absolutePath)!!
-                inMovies.add(movie)
-                videoFileList.add(File(videoPaths[i]))
-            }
-
-            for (i in audioPaths.indices) {
-                val file = File(audioPaths[i])
-                aacTrack = AACTrackImpl(FileDataSourceImpl(file))
-                audioFileList.add(File(audioPaths[i]))
-            }
-
-
-            val videoTracks = LinkedList<Track>()
-            val audioTracks = LinkedList<Track>()
-
-            val aacTrackShort = CroppedTrack(aacTrack!!, 1, aacTrack.samples.size.toLong())
-            audioTracks.add(aacTrackShort)
-            videoTracks.add(inMovies.first().getTracks().first())
-
-            //Result movie from putting the audio and video together from the two clips
-            val result = Movie()
-
-            //Append all audio and video
-            if (videoTracks.size > 0)
-                result.addTrack(AppendTrack(*videoTracks.toTypedArray()))
-
-            if (audioTracks.size > 0)
-            //result.addTrack(new AppendTrack(audioTracks.toArray(new Track[audioTracks.size()])));
-                result.addTrack(aacTrackShort)
-
-
-            val out = DefaultMp4Builder().build(result)
-            val fc = RandomAccessFile(String.format(filePath), "rw").channel
-            out.writeContainer(fc)
+            val mp4file = DefaultMp4Builder().build(movie)
+            val fc = FileOutputStream(File(filePath)).getChannel()
+            mp4file.writeContainer(fc)
             fc.close()
-
-            //TODO Refresh Gallery Here
 
             return Observable.just(filePath)
 
@@ -87,8 +47,8 @@ class MergeExample(private val videoPaths: List<String>, private val audioPaths:
             e.printStackTrace()
         } catch (e: NullPointerException) {
             e.printStackTrace()
-        } catch (e: OutOfMemoryError) {
-            e.printStackTrace()
+        } catch (t: OutOfMemoryError) {
+            t.printStackTrace()
         }
 
         return Observable.just("")
@@ -96,5 +56,39 @@ class MergeExample(private val videoPaths: List<String>, private val audioPaths:
 
     companion object {
         private val TAG = "MergeExample"
+    }
+
+    private fun getAudioTrack(): Track {
+
+        removeHeaders()
+
+        val track = FileDataSourceImpl(audioPath)
+        var audio: Track? = null
+
+        if (audioPath.contains(".mp3")) {
+            audio = MP3TrackImpl(track)
+        } else if (audioPath.contains(".aac")) {
+            audio = AACTrackImpl(track)
+        }
+        return audio!!
+    }
+
+    fun removeHeaders(){
+        val raf = RandomAccessFile(File(audioPath), "rw")
+        val buf = ByteArray(65536)
+        var pos: Long = 0
+        var len: Int
+        val random = Random(34)
+        val lent = raf.read(buf)
+
+        while ((lent) != -1) {
+            for (i in 0 until lent) {
+                buf[i] = buf[i] xor random.nextInt().toByte()
+            }
+            raf.seek(pos)
+            raf.write(buf)
+            pos = raf.getFilePointer()
+        }
+        raf.close()
     }
 }
