@@ -27,6 +27,7 @@ class MainActivity : Activity() {
     lateinit var audio: File
     lateinit var audio2: File
     lateinit var audio3: File
+    lateinit var audio4: File
     lateinit var video: File
     lateinit var video2: File
 
@@ -71,7 +72,7 @@ class MainActivity : Activity() {
 
         btn_merge.setOnClickListener {
 
-            val mergeExample = MergeExample(video.path, audio3.path)
+            val mergeExample = MergeExample(video.path, audio2.path)
 
             //This will merge audio and video files together in a single video file.
             mergeExample.merge()
@@ -108,9 +109,11 @@ class MainActivity : Activity() {
 
     fun setUpResources() {
         //Copy Audio, Video from resources to Storage Directory
-        audio = Utils.copyFileToExternalStorage(R.raw.audio, "example.aac", applicationContext)
-        audio2 = Utils.copyFileToExternalStorage(R.raw.audio2, "sample.aac", applicationContext)
-        audio3 = Utils.copyFileToExternalStorage(R.raw.audio3, "audio3.mp3", applicationContext)
+        Utils.copyAssets(this)
+        audio3 = Utils.copyFileToExternalStorage(R.raw.sample4, "sample4.mp3", applicationContext)
+        audio4 = Utils.copyFileToExternalStorage(R.raw.audio3, "audio3.mp3", applicationContext)
+        audio = File(Utils.outputPath + "example.aac")
+        audio2 = File(Utils.outputPath + "sample.aac")
         video = Utils.copyFileToExternalStorage(R.raw.video, "video.mp4", applicationContext)
         video2 = Utils.copyFileToExternalStorage(R.raw.video2, "video2.mp4", applicationContext)
     }

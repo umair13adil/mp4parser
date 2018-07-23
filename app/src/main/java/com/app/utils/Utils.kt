@@ -4,12 +4,10 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Environment
-import java.io.File
-import java.io.FileNotFoundException
-import java.io.IOException
-import java.io.InputStream
+import java.io.*
 import java.text.SimpleDateFormat
 import java.util.*
+
 
 /**
  * Created by Umair_Adil on 23/07/2016.
@@ -82,5 +80,28 @@ object Utils {
 
     fun getTimeStamp(): String {
         return SimpleDateFormat("yyyyMMdd_HHmmss", Locale.ENGLISH).format(Date())
+    }
+
+    fun copyAssets(context: Context) {
+        val bufferSize = 1024
+        val assetManager = context.assets
+        val assetFiles = assetManager.list("")
+
+        assetFiles.forEach {
+            try {
+                val inputStream = assetManager.open(it)
+                val outputStream = FileOutputStream(File(outputPath, it))
+
+                try {
+                    inputStream.copyTo(outputStream, bufferSize)
+                } finally {
+                    inputStream.close()
+                    outputStream.flush()
+                    outputStream.close()
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+        }
     }
 }
