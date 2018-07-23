@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Mp4 Parser Example</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="message_error">Error: Unable to perform this operation. Check logcat for errors.</string>
+    <string name="message_appended">The appended file is exported to </string>
+    <string name="message_shortened">The shortened file is exported to </string>
+    <string name="message_wait">Wait a moment, please&#8230;</string>
+
+</resources>
